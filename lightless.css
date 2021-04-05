@@ -3,20 +3,36 @@
     background-color: #0f0828;
 }
 
-#navbar {
+#main-display {
+    display: flex;
+    justify-content: center;
+}
+
+.speaker-name {
+    display: flex;
+    margin-left: 10vh;
+}
+
+.spoken-text {
+    display: flex;
+    margin-left: 15vh;
+}
+
+#text-bubble {
+    font-family: 'Syne Mono', monospace;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
-    padding-top: 40px;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 120px;
+    position: fixed;
+    bottom: 20vh;
     color: #e2dcf7;
     background-color: #2f0e5e;
     width: 900px;
+    height: 40px;
     text-align: center;
-    font-family: 'Syne Mono', monospace;
-    box-shadow: #98caca 0px 5px 15px;
-    border-radius: 4px;
+    box-shadow: #98caca 1px 1px 4px 1px;
+    border-radius: 8px;
     text-shadow: #98caca 0px 3px 5px;
 }
 

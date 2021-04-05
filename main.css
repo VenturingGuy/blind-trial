@@ -15,12 +15,12 @@
     width: 900px;
     text-align: center;
     font-family: 'Syne Mono', monospace;
-    box-shadow: #98caca 0px 5px 15px;
-    border-radius: 4px;
-    text-shadow: #98caca 0px 3px 5px;
+    box-shadow: #98caca 1px 1px 4px 1px;
+    border-radius: 8px;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
+    text-shadow: #98caca 0px 3px 5px;
 }
